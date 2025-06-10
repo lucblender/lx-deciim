@@ -1,0 +1,2855 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b84182ef-8a6c-4257-9b0c-2c64be7717da")
+	(paper "A4")
+	(lib_symbols
+		(symbol "2MS1T1B3M2QES:2MS1T1B3M2QES"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -0.508 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "2MS1T1B3M2QES"
+				(at -0.254 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "2MS1T1B3M2QES"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.it/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Toggle Switches SPDT ON-ON"
+				(at 2.794 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "23.63"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "118-2MS1T1B3M2QES"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS1T1B3M2QES?qs=B6kkDfuK7%2FC8dKx8sZvGxg%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Dailywell"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "2MS1T1B3M2QES"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "2MS1T1B3M2QES_1_1"
+				(circle
+					(center 5.588 0)
+					(radius 0.4399)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0.508) (xy 6.858 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.112 2.54)
+					(radius 0.4399)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 7.112 -2.54)
+					(radius 0.4399)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDS"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDS"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDS_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDS_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GNDS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 138.43 44.45) (xy 137.16 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04da767b-da35-46a1-9b20-9c2ea2083531")
+	)
+	(wire
+		(pts
+			(xy 138.43 120.65) (xy 137.16 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07210ce6-e389-461f-8600-be4a90baff35")
+	)
+	(wire
+		(pts
+			(xy 138.43 95.25) (xy 137.16 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234b8487-569c-4d14-b938-5894922c5211")
+	)
+	(wire
+		(pts
+			(xy 138.43 69.85) (xy 137.16 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "356069d7-07b1-41ed-8285-57d9fe9768c1")
+	)
+	(wire
+		(pts
+			(xy 138.43 31.75) (xy 137.16 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb692bf-3d27-4186-b8f2-8b26dff6ae35")
+	)
+	(wire
+		(pts
+			(xy 138.43 146.05) (xy 137.16 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d3b1b5-5191-47ae-8cdb-29a73cb8e939")
+	)
+	(wire
+		(pts
+			(xy 138.43 82.55) (xy 137.16 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c22a64e-af65-4154-8397-519818c2cf9c")
+	)
+	(wire
+		(pts
+			(xy 138.43 57.15) (xy 137.16 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3a7b00-15ed-4e4d-9b08-28d17ca02342")
+	)
+	(wire
+		(pts
+			(xy 138.43 171.45) (xy 137.16 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adeb83d2-eb93-46fc-b81d-4ce7486ed16c")
+	)
+	(wire
+		(pts
+			(xy 138.43 107.95) (xy 137.16 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caad5221-6f5d-4607-aae5-93d76c055841")
+	)
+	(wire
+		(pts
+			(xy 138.43 158.75) (xy 137.16 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce87b805-e16f-462c-a282-eaf8916b07bf")
+	)
+	(wire
+		(pts
+			(xy 138.43 133.35) (xy 137.16 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a7c5f9-7fe7-4c32-b501-020fdd8066b5")
+	)
+	(hierarchical_label "sw_07"
+		(shape output)
+		(at 138.43 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20831c09-d985-4cc0-bda1-b7e0f3d624eb")
+	)
+	(hierarchical_label "sw_00"
+		(shape output)
+		(at 138.43 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "317fb31a-39bb-4d76-9bb3-830fb0685d61")
+	)
+	(hierarchical_label "sw_10"
+		(shape output)
+		(at 138.43 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3aa4145f-8db9-4a31-a538-b26f7889c4ed")
+	)
+	(hierarchical_label "sw_06"
+		(shape output)
+		(at 138.43 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ddc2c5a-cafc-4310-b463-f8fa66c47313")
+	)
+	(hierarchical_label "sw_08"
+		(shape output)
+		(at 138.43 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5609596b-a8a5-410b-9dfe-26ca39622e66")
+	)
+	(hierarchical_label "sw_03"
+		(shape output)
+		(at 138.43 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57f19199-c558-45f3-a985-dfd49d4057ca")
+	)
+	(hierarchical_label "sw_02"
+		(shape output)
+		(at 138.43 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92daf8c7-b3d0-4a00-a612-7c5fc6287d4c")
+	)
+	(hierarchical_label "sw_09"
+		(shape output)
+		(at 138.43 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d671103-0c48-49d1-919c-38bdac894cf9")
+	)
+	(hierarchical_label "sw_11"
+		(shape output)
+		(at 138.43 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0b6c67e-12e2-4ad4-8843-46358c636f3c")
+	)
+	(hierarchical_label "sw_01"
+		(shape output)
+		(at 138.43 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a95538f5-5056-4e06-9b89-f218bdd9f990")
+	)
+	(hierarchical_label "sw_04"
+		(shape output)
+		(at 138.43 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd23326a-9539-43d5-903a-9625c7f02665")
+	)
+	(hierarchical_label "sw_05"
+		(shape output)
+		(at 138.43 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd1284a7-b2e4-4211-b577-687cf386e27f")
+	)
+	(symbol
+		(lib_id "2MS1T1B3M2QES:2MS1T1B3M2QES")
+		(at 137.16 57.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10a4f5d4-422b-4528-b74b-97cf9db5e262")
+		(property "Reference" "S3"
+			(at 130.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2MS1T1B3M2QES"
+			(at 130.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "2MS1T1B3M2QES"
+			(at 120.65 152.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 120.65 252.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPDT ON-ON"
+			(at 134.366 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 120.65 452.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS1T1B3M2QES"
+			(at 120.65 552.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS1T1B3M2QES?qs=B6kkDfuK7%2FC8dKx8sZvGxg%3D%3D"
+			(at 120.65 652.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 120.65 752.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS1T1B3M2QES"
+			(at 120.65 852.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cba440a7-ef0a-42bf-8adf-f217325395c2")
+		)
+		(pin "3"
+			(uuid "97e3f8d9-8008-4b40-8b64-7f78f5eff2d0")
+		)
+		(pin "2"
+			(uuid "410f3075-cbd6-4aa6-8902-349c1229a37c")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 124.46 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "224642c2-5e0f-4dfd-a3c4-495c1941cd44")
+		(property "Reference" "#PWR071"
+			(at 118.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a0fc230-e564-4d06-9ac3-d33cfb50702e")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 124.46 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26d219ca-51e4-4527-abad-22823681480f")
+		(property "Reference" "#PWR074"
+			(at 118.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d3733f4-1f74-402e-b1ba-7116c386552c")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 124.46 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f03d591-accb-4488-a7d5-b0a479cbb73a")
+		(property "Reference" "#PWR078"
+			(at 118.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f84d5c6e-c142-49d7-9d7b-cf378ca031e2")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 124.46 46.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32c2ff31-538b-4a25-b7e9-eca7ab796fce")
+		(property "Reference" "#PWR072"
+			(at 118.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41932639-cc8c-4c75-9ac2-a885d7dc9c0a")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 124.46 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d728fd1-6831-4f3b-aaac-4528d1fafc62")
+		(property "Reference" "#PWR079"
+			(at 118.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e362b3b0-c254-49a6-989e-3d656eee95fe")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2MS1T1B3M2QES:2MS1T1B3M2QES")
+		(at 137.16 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e04a2ca-a5a8-462c-b332-aeed4889283b")
+		(property "Reference" "S9"
+			(at 130.81 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2MS1T1B3M2QES"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "2MS1T1B3M2QES"
+			(at 120.65 228.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 120.65 328.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPDT ON-ON"
+			(at 134.366 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 120.65 528.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS1T1B3M2QES"
+			(at 120.65 628.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS1T1B3M2QES?qs=B6kkDfuK7%2FC8dKx8sZvGxg%3D%3D"
+			(at 120.65 728.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 120.65 828.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS1T1B3M2QES"
+			(at 120.65 928.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d96b97a-b665-41c0-98cc-27752160b472")
+		)
+		(pin "3"
+			(uuid "dde6a262-027e-4163-b8de-c6b37c8e01fb")
+		)
+		(pin "2"
+			(uuid "72293e6f-7303-4d27-ba0a-608afd53ff37")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 124.46 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42a355f6-0328-4c14-a185-b31cef3d5c73")
+		(property "Reference" "#PWR077"
+			(at 118.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5d974f7-42ce-4475-8f2f-8889440894bc")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2MS1T1B3M2QES:2MS1T1B3M2QES")
+		(at 137.16 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46398066-b70b-4b2f-95e7-17f31ab53533")
+		(property "Reference" "S5"
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2MS1T1B3M2QES"
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "2MS1T1B3M2QES"
+			(at 120.65 177.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 120.65 277.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPDT ON-ON"
+			(at 134.366 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 120.65 477.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS1T1B3M2QES"
+			(at 120.65 577.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS1T1B3M2QES?qs=B6kkDfuK7%2FC8dKx8sZvGxg%3D%3D"
+			(at 120.65 677.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 120.65 777.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS1T1B3M2QES"
+			(at 120.65 877.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6d52fc6-3ec6-4da1-ac68-0ce7e5979822")
+		)
+		(pin "3"
+			(uuid "a1c67a84-8019-46b3-b184-027be83f1ead")
+		)
+		(pin "2"
+			(uuid "d540caec-baa7-421b-b4c1-49549a628197")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2MS1T1B3M2QES:2MS1T1B3M2QES")
+		(at 137.16 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "470c2a99-f90e-4849-9d75-97f51c26e124")
+		(property "Reference" "S11"
+			(at 130.81 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2MS1T1B3M2QES"
+			(at 130.81 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "2MS1T1B3M2QES"
+			(at 120.65 253.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 120.65 353.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPDT ON-ON"
+			(at 134.366 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 120.65 553.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS1T1B3M2QES"
+			(at 120.65 653.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS1T1B3M2QES?qs=B6kkDfuK7%2FC8dKx8sZvGxg%3D%3D"
+			(at 120.65 753.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 120.65 853.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS1T1B3M2QES"
+			(at 120.65 953.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa4d814d-c49a-4db2-946c-e6fe4362e663")
+		)
+		(pin "3"
+			(uuid "25f55ab8-f9b9-48d1-b163-b7e8064b4768")
+		)
+		(pin "2"
+			(uuid "a85b5dc6-f042-4473-a097-8f8c2a705410")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "S11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 124.46 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ed18b0c-7729-407c-b816-becd74e0e6fa")
+		(property "Reference" "#PWR080"
+			(at 118.11 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8dc4069-46c5-47e3-9160-a6b32e10cc82")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2MS1T1B3M2QES:2MS1T1B3M2QES")
+		(at 137.16 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69816728-6473-4fed-9e19-f375919529a1")
+		(property "Reference" "S8"
+			(at 130.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2MS1T1B3M2QES"
+			(at 130.81 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "2MS1T1B3M2QES"
+			(at 120.65 215.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 120.65 315.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPDT ON-ON"
+			(at 134.366 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 120.65 515.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS1T1B3M2QES"
+			(at 120.65 615.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS1T1B3M2QES?qs=B6kkDfuK7%2FC8dKx8sZvGxg%3D%3D"
+			(at 120.65 715.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 120.65 815.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS1T1B3M2QES"
+			(at 120.65 915.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b699d92a-4038-4efb-8086-bdaa2b9d76d5")
+		)
+		(pin "3"
+			(uuid "ec95fa58-2065-4235-a0f0-c2711ff52eff")
+		)
+		(pin "2"
+			(uuid "90f9163b-73b9-44ca-ab5e-49f1026af1b3")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2MS1T1B3M2QES:2MS1T1B3M2QES")
+		(at 137.16 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ed72192-63cb-48ce-874d-67fb1d406745")
+		(property "Reference" "S7"
+			(at 130.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2MS1T1B3M2QES"
+			(at 130.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "2MS1T1B3M2QES"
+			(at 120.65 202.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 120.65 302.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPDT ON-ON"
+			(at 134.366 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 120.65 502.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS1T1B3M2QES"
+			(at 120.65 602.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS1T1B3M2QES?qs=B6kkDfuK7%2FC8dKx8sZvGxg%3D%3D"
+			(at 120.65 702.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 120.65 802.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS1T1B3M2QES"
+			(at 120.65 902.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d1b5207-1b99-455c-9d14-b9b104b34667")
+		)
+		(pin "3"
+			(uuid "8f989e50-befb-4761-884f-ed654471e62f")
+		)
+		(pin "2"
+			(uuid "3f9d2629-aa0b-4891-b94c-83986348984c")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "S7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 124.46 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7561964d-9510-4b09-8498-b0ff60762cfc")
+		(property "Reference" "#PWR075"
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbc8e1bb-ad2c-4fc3-80f1-73bec6d64bc2")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 124.46 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b9405c7-2ca8-4fa0-8286-47b9e3a177e4")
+		(property "Reference" "#PWR073"
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a9dbe22-2f3f-45ed-b9f2-5a333543eb3f")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 124.46 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b9eadba-761b-4772-8c0f-0973d964f464")
+		(property "Reference" "#PWR081"
+			(at 118.11 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8d17b86-0bdb-4677-87e9-b77e6bdad231")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 124.46 173.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fae8d92-0437-41cd-ae47-a0bf4e72e93b")
+		(property "Reference" "#PWR082"
+			(at 118.11 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c023d14-3ecd-4131-b7f8-33da1c59fbe9")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2MS1T1B3M2QES:2MS1T1B3M2QES")
+		(at 137.16 171.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87eb8b59-72c3-4ee0-a8b1-9b80a9c861a8")
+		(property "Reference" "S12"
+			(at 130.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2MS1T1B3M2QES"
+			(at 130.81 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "2MS1T1B3M2QES"
+			(at 120.65 266.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 120.65 366.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPDT ON-ON"
+			(at 134.366 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 120.65 566.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS1T1B3M2QES"
+			(at 120.65 666.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS1T1B3M2QES?qs=B6kkDfuK7%2FC8dKx8sZvGxg%3D%3D"
+			(at 120.65 766.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 120.65 866.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS1T1B3M2QES"
+			(at 120.65 966.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "171ea7bc-a9e8-4905-a60d-b3234b953fa4")
+		)
+		(pin "3"
+			(uuid "f732ce6a-6e79-4788-bf4a-a40bb077f6f0")
+		)
+		(pin "2"
+			(uuid "4d841baf-e978-42c4-b61b-44998e9aec1e")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "S12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDS")
+		(at 124.46 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8c825c8-39e5-490d-b227-c41c22590f1a")
+		(property "Reference" "#PWR076"
+			(at 118.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53393609-c58c-4d9a-950a-892c00a09a4f")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2MS1T1B3M2QES:2MS1T1B3M2QES")
+		(at 137.16 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceb4fab4-21d7-4691-a519-c883b992f5b4")
+		(property "Reference" "S6"
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2MS1T1B3M2QES"
+			(at 130.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "2MS1T1B3M2QES"
+			(at 120.65 190.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 120.65 290.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPDT ON-ON"
+			(at 134.366 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 120.65 490.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS1T1B3M2QES"
+			(at 120.65 590.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS1T1B3M2QES?qs=B6kkDfuK7%2FC8dKx8sZvGxg%3D%3D"
+			(at 120.65 690.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 120.65 790.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS1T1B3M2QES"
+			(at 120.65 890.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67394ef1-24df-4093-810f-488e3f28e963")
+		)
+		(pin "3"
+			(uuid "fdd3e20d-8de3-4a20-a08e-ab7cd12771d5")
+		)
+		(pin "2"
+			(uuid "ad367ca0-3f4e-46f5-aede-a001a67beee9")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "S6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2MS1T1B3M2QES:2MS1T1B3M2QES")
+		(at 137.16 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7402533-308a-4d7a-b975-49c98b553927")
+		(property "Reference" "S4"
+			(at 130.81 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2MS1T1B3M2QES"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "2MS1T1B3M2QES"
+			(at 120.65 164.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 120.65 264.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPDT ON-ON"
+			(at 134.366 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 120.65 464.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS1T1B3M2QES"
+			(at 120.65 564.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS1T1B3M2QES?qs=B6kkDfuK7%2FC8dKx8sZvGxg%3D%3D"
+			(at 120.65 664.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 120.65 764.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS1T1B3M2QES"
+			(at 120.65 864.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20390d25-8106-4f36-a0bd-63a5b1c0d591")
+		)
+		(pin "3"
+			(uuid "a1d8e87f-ce65-4671-9853-4caad4a871fe")
+		)
+		(pin "2"
+			(uuid "10c838b9-993d-491f-9b8b-4af2626452e5")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2MS1T1B3M2QES:2MS1T1B3M2QES")
+		(at 137.16 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea80c9e3-13c1-4f3c-962f-c08c510567e6")
+		(property "Reference" "S2"
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2MS1T1B3M2QES"
+			(at 130.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "2MS1T1B3M2QES"
+			(at 120.65 139.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 120.65 239.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPDT ON-ON"
+			(at 134.366 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 120.65 439.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS1T1B3M2QES"
+			(at 120.65 539.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS1T1B3M2QES?qs=B6kkDfuK7%2FC8dKx8sZvGxg%3D%3D"
+			(at 120.65 639.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 120.65 739.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS1T1B3M2QES"
+			(at 120.65 839.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79b55ac8-3e57-4c9d-afed-674536215a66")
+		)
+		(pin "3"
+			(uuid "1e934e81-394d-4ec7-9890-3f0d03c728c3")
+		)
+		(pin "2"
+			(uuid "9a474adc-9acb-4667-b9c3-70514606344e")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2MS1T1B3M2QES:2MS1T1B3M2QES")
+		(at 137.16 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f059d8-7463-4dd3-948d-6a9a857591cf")
+		(property "Reference" "S1"
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2MS1T1B3M2QES"
+			(at 130.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "2MS1T1B3M2QES"
+			(at 120.65 126.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 120.65 226.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPDT ON-ON"
+			(at 134.366 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 120.65 426.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS1T1B3M2QES"
+			(at 120.65 526.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS1T1B3M2QES?qs=B6kkDfuK7%2FC8dKx8sZvGxg%3D%3D"
+			(at 120.65 626.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 120.65 726.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS1T1B3M2QES"
+			(at 120.65 826.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e6af2d5-34e3-40a3-b958-cf2c14f2f4f9")
+		)
+		(pin "3"
+			(uuid "bebef3cd-a4cb-4ce8-accc-17e9372dc088")
+		)
+		(pin "2"
+			(uuid "adc7d06e-8fc0-4af5-89aa-cbfcc31bee72")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2MS1T1B3M2QES:2MS1T1B3M2QES")
+		(at 137.16 146.05 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f923b415-c55c-4afc-95c2-b8b6aca31c33")
+		(property "Reference" "S10"
+			(at 130.81 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2MS1T1B3M2QES"
+			(at 130.81 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "2MS1T1B3M2QES"
+			(at 120.65 240.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/979/Dailywell_01132020_2M_Series-1708785.pdf"
+			(at 120.65 340.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SPDT ON-ON"
+			(at 134.366 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "23.63"
+			(at 120.65 540.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-2MS1T1B3M2QES"
+			(at 120.65 640.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/2MS1T1B3M2QES?qs=B6kkDfuK7%2FC8dKx8sZvGxg%3D%3D"
+			(at 120.65 740.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 120.65 840.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2MS1T1B3M2QES"
+			(at 120.65 940.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c9b93fc-d21f-4e4c-96f1-76cddd7a4428")
+		)
+		(pin "3"
+			(uuid "ed3ac32c-e1ba-4d9d-a408-31882dbe6536")
+		)
+		(pin "2"
+			(uuid "2d377f94-c865-47a0-ae51-1cd3e0aef3f8")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/6ebd6aa2-281e-45fc-a2d8-e15a00443177"
+					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

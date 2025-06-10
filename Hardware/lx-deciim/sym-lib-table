@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2MS1T1B3M2QES")(type "KiCad")(uri "${KIPRJMOD}/libraries/2MS1T1B3M2QES/2MS1T1B3M2QES.kicad_sym")(options "")(descr ""))
+  (lib (name "AZ1117CH2-5_0TRG1")(type "KiCad")(uri "${KIPRJMOD}/libraries/AZ1117CH2-5.0TRG1/AZ1117CH2-5_0TRG1.kicad_sym")(options "")(descr ""))
+)

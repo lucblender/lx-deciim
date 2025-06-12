@@ -489,7 +489,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "lx-deciim-logic-board.step",
       "svg": "",
       "vrml": ""
     },

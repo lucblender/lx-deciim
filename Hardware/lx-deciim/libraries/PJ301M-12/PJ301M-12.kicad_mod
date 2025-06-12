@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 4.064 5.588 0)
 		(layer "F.SilkS")
-		(uuid "d61a69db-3bb6-4157-b55b-4428d96632a5")
+		(uuid "7c496809-14cc-4757-bffe-8a69deb823f4")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "PJ301M-12"
 		(at 0 -7.112 0)
 		(layer "F.Fab")
-		(uuid "9c505f1a-fc0e-4ca0-b47f-37c3456c55a8")
+		(uuid "31523da5-c266-4b65-ad80-f09d16af30ec")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a406057e-2bbe-4d57-b35f-012af30990f7")
+		(uuid "161d0f13-7dae-4949-b86c-a07913bcd580")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d6ddc5b6-6d64-4698-ad8f-0589acbc11c4")
+		(uuid "f0f798d8-3a6c-4abd-9d96-ad3c01d0b8d8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -125,7 +125,7 @@
 		(at 0 6.48)
 		(size 2.2 2.2)
 		(drill 1.6)
-		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "35b18103-ccdc-438d-920b-ed7a50260854")
 	)
@@ -133,7 +133,7 @@
 		(at 0 -4.92)
 		(size 2.2 2.2)
 		(drill 1.6)
-		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "978f7ec8-2bda-4b71-a0f1-c972f9836c70")
 	)
@@ -141,7 +141,7 @@
 		(at 0 3.38)
 		(size 2.2 2.2)
 		(drill 1.6)
-		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "833e4bb9-427a-4281-8960-9b25b7c44f3f")
 	)

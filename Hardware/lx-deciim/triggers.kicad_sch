@@ -15534,72 +15534,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 252.73 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99f0fcc0-0f70-4ff9-bdb3-bef0e3d22520")
-		(property "Reference" "#PWR010"
-			(at 252.73 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 252.73 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 252.73 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70739b2a-6dbf-4121-88e2-97091913e784")
-		)
-		(instances
-			(project "lx-deciim"
-				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/ab19b4a5-9c44-4120-a39c-ac50899822bb"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 50.8 170.18 270)
 		(unit 1)
@@ -17916,6 +17850,73 @@
 				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/ab19b4a5-9c44-4120-a39c-ac50899822bb"
 					(reference "U3")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 20.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e46e2dbd-cd4d-4bb4-9cc2-44cfcc1dd97d")
+		(property "Reference" "#PWR0109"
+			(at 259.08 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 20.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fec14251-7e91-4835-9607-a73f9d65d513")
+		)
+		(instances
+			(project "lx-deciim"
+				(path "/9ca2396d-dee1-4fae-99da-0a85948cf9d5/ab19b4a5-9c44-4120-a39c-ac50899822bb"
+					(reference "#PWR0109")
+					(unit 1)
 				)
 			)
 		)

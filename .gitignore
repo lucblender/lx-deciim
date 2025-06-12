@@ -42,3 +42,8 @@ bom/
 out/
 
 # End of https://www.toptal.com/developers/gitignore/api/kicad
+Hardware/lx-deciim/libraries/daisyseed/Daisy Seed.step
+
+Hardware/lx-deciim/lx-deciim-main-board.step
+
+Hardware/lx-deciim/lx-deciim-logic-board.step

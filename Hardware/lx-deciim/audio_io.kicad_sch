@@ -4218,6 +4218,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "595-TL074HIDYYR"
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "c66c1672-457e-4654-a916-94204fdfb33f")
 		)
@@ -4314,6 +4322,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 151.765 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603JR-07100KL"
 			(at 151.765 74.93 0)
 			(effects
 				(font
@@ -4454,6 +4470,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-AC0603JR-07100KL"
+			(at 80.01 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c7e83585-b8b5-4376-b23f-40ce55cdc5ce")
 		)
@@ -4514,6 +4538,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 68.58 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "963-BASE168SB5105KT"
 			(at 68.58 177.8 0)
 			(effects
 				(font
@@ -4590,6 +4622,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "660-RK73H1JTTDD2004F"
+			(at 36.195 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9cae5c0c-d12e-4017-8b1a-b7d348e7b4eb")
 		)
@@ -4650,6 +4690,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 107.315 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603JR-07100KL"
 			(at 107.315 34.29 0)
 			(effects
 				(font
@@ -4726,6 +4774,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "710-885012206071R"
+			(at 240.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4737fc8-a00a-486f-b506-86db992b0fca")
 		)
@@ -4786,6 +4842,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 151.765 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603JR-07100KL"
 			(at 151.765 34.29 0)
 			(effects
 				(font
@@ -4855,6 +4919,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 231.14 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603JR-07100KL"
 			(at 231.14 149.225 0)
 			(effects
 				(font
@@ -4996,6 +5068,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "77-VJ0603A470KXJCBC"
+			(at 151.765 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a5bb98e-4888-4cd3-90d1-409c5187b4a4")
 		)
@@ -5056,6 +5136,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603JR-07100KL"
 			(at 83.82 43.18 0)
 			(effects
 				(font
@@ -5195,6 +5283,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "579-MCP6004-I/SL"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a7a9886e-90a2-43b7-85e2-df18e6695c07")
 		)
@@ -5299,6 +5395,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TL074HIDYYR"
+			(at 232.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "13"
@@ -5472,6 +5576,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "77-VJ0603A470KXJCBC"
+			(at 107.315 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7b17c4f9-e085-4b59-866d-5695ce667b8f")
 		)
@@ -5605,6 +5717,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 103.505 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "579-MCP6004-I/SL"
 			(at 103.505 142.24 0)
 			(effects
 				(font
@@ -5773,6 +5893,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "963-BASE168SB5105KT"
 			(at 68.58 139.7 0)
 			(effects
 				(font
@@ -5977,6 +6105,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TL074HIDYYR"
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "13"
@@ -6222,6 +6358,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-AC0603JR-07100KL"
+			(at 107.315 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "77cfa70d-04c0-4dab-8d53-43f4b8ca53ac")
 		)
@@ -6289,6 +6433,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "660-RK73H1JTTD1001F"
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2a2e9193-32bf-41b4-bb53-6c22fe62a067")
 		)
@@ -6349,6 +6501,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "660-RK73H1JTTD1001F"
 			(at 200.66 45.72 0)
 			(effects
 				(font
@@ -6569,6 +6729,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "660-RK73H1JTTD3302F"
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "898899b6-12aa-480b-83bd-542dafcb4b1e")
 		)
@@ -6636,6 +6804,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "77-VJ0603A470KXJCBC"
+			(at 103.505 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6836,6 +7012,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "595-TL074HIDYYR"
+			(at 109.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "c66c1672-457e-4654-a916-94204fdfb342")
 		)
@@ -6939,6 +7123,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "77-VJ0603A470KXJCBC"
+			(at 107.315 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7342,6 +7534,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "77-VJ0603A470KXJCBC"
+			(at 103.505 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f80cabd-b4fc-46af-9981-0bb9cf7ae438")
 		)
@@ -7402,6 +7602,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 80.01 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603JR-07100KL"
 			(at 80.01 139.7 0)
 			(effects
 				(font
@@ -7552,6 +7760,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "710-885012206071R"
+			(at 240.03 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4793dbdb-a1e9-402e-b829-c1be73a330c8")
 		)
@@ -7618,6 +7834,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TL074HIDYYR"
+			(at 153.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "13"
@@ -7921,6 +8145,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "579-MCP6004-I/SL"
+			(at 172.085 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3e6ed4a8-ab15-40aa-8115-b28ffc0805f8")
 		)
@@ -8024,6 +8256,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "660-RK73H1JTTD3302F"
+			(at 103.505 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8831d581-179a-4963-8fea-704127ebf8f2")
 		)
@@ -8091,6 +8331,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "77-VJ0603A470KXJCBC"
+			(at 151.765 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8218,6 +8466,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 103.505 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "660-RK73H1JTTD3302F"
 			(at 103.505 130.81 0)
 			(effects
 				(font
@@ -8563,6 +8819,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "710-885012206071R"
+			(at 162.56 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "643006e3-02be-4e2a-82e2-30896d51e3ac")
 		)
@@ -8623,6 +8887,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "579-MCP6004-I/SL"
 			(at 248.92 140.97 0)
 			(effects
 				(font
@@ -8726,6 +8998,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 103.505 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "579-MCP6004-I/SL"
 			(at 103.505 180.34 0)
 			(effects
 				(font
@@ -8902,6 +9182,14 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "603-AC0603JR-07100KL"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47925c3b-9dbc-484b-ac36-23d6b9df6b26")
 		)
@@ -8962,6 +9250,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 128.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "660-RK73H1JTTD3302F"
 			(at 128.27 43.18 0)
 			(effects
 				(font
@@ -9031,6 +9327,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 36.195 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "660-RK73H1JTTDD2004F"
 			(at 36.195 183.515 0)
 			(effects
 				(font
@@ -9171,6 +9475,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 231.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603JR-07100KL"
 			(at 231.14 138.43 0)
 			(effects
 				(font

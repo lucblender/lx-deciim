@@ -2343,7 +2343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-06031C104MAT2A"
+		(property "Mouser Part Number" "710-885012206071R"
 			(at 125.73 99.06 0)
 			(effects
 				(font
@@ -2548,6 +2548,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 198.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "963-BASE168SB5105KT"
 			(at 198.12 93.98 0)
 			(effects
 				(font
@@ -3033,7 +3041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-06031C104MAT2A"
+		(property "Mouser Part Number" "710-885012206071R"
 			(at 125.73 88.9 0)
 			(effects
 				(font

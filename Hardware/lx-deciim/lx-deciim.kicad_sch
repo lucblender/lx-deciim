@@ -4791,6 +4791,14 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "311-1940F-15F-B10K"
+			(at 85.09 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1a592922-0d9b-4f2c-ba8d-8b28d1006c99")
 		)

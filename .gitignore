@@ -53,3 +53,9 @@ Hardware/lx-deciim/lx-deciim-front-panel.step
 Hardware/lx-deciim/output/
 
 Hardware/lx-deciim/output-front/
+
+Software/lx-deciim-libdaisy/libDaisy/
+
+Software/lx-deciim-libdaisy/DaisySP/
+
+Software/lx-deciim-libdaisy/build/

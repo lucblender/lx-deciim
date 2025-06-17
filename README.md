@@ -1,5 +1,8 @@
 # lx-deciim
 
+## Bloc diagram
+
+![Bloc diagram](Pictures/bloc_diagram.svg)
 
 ## License
 

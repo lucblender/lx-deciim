@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "9ca2396d-dee1-4fae-99da-0a85948cf9d5")
 	(paper "A4")
+	(title_block
+		(title "lx-deciim")
+		(date "2025-06-17")
+		(rev "v1.0.0")
+		(company "Lucas Bonvin")
+		(comment 1 "This project is licensed under the CC BY-NC 4.0 License.")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
@@ -4797,6 +4804,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

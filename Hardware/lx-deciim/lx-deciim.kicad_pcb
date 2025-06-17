@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "lx-deciim")
+		(date "2025-06-17")
+		(rev "v1.0.0")
+		(company "Lucas Bonvin")
+		(comment 1 "This project is licensed under the CC BY-NC 4.0 License.")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)

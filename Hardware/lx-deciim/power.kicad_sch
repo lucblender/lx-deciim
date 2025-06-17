@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "62ff1d54-2c34-471b-92ab-7f020ebcadb9")
 	(paper "A4")
+	(title_block
+		(title "lx-deciim")
+		(date "2025-06-17")
+		(rev "v1.0.0")
+		(company "Lucas Bonvin")
+		(comment 1 "This project is licensed under the CC BY-NC 4.0 License.")
+	)
 	(lib_symbols
 		(symbol "AZ1117CH2-5_0TRG1:AZ1117CH2-5.0TRG1"
 			(exclude_from_sim no)
@@ -2561,6 +2568,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

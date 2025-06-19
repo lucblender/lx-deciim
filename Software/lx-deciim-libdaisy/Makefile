@@ -2,8 +2,9 @@
 TARGET = lx-deciim-libdaisy
 
 # Sources
-CPP_SOURCES = lx-deciim-libdaisy.cpp
+CPP_SOURCES = lx-deciim-libdaisy.cpp ./inc/DownSampler.cpp
 
+LDFLAGS += -u _printf_float
 # Library Locations
 LIBDAISY_DIR = ./libDaisy
 DAISYSP_DIR = ./DaisySP

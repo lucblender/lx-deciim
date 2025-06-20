@@ -5,6 +5,7 @@
         "string": "cpp",
         "string_view": "cpp",
         "limits": "cpp",
-        "type_traits": "cpp"
+        "type_traits": "cpp",
+        "random": "cpp"
     }
 }

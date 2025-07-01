@@ -13,8 +13,7 @@ using namespace daisy;
 uint32_t bitNumberAnalog = 12;
 float downSamplingIndex = 1.0f;
 
-#define BIT_CRUSH_AN seed::A6   // TODO REMOVE
-#define DOWN_SAMPLE_AC seed::A7 // replace with A11
+#define DOWN_SAMPLE_AC seed::A11
 
 daisy::Pin triggerPins[12] = {
     seed::D15, // LSB
@@ -23,8 +22,8 @@ daisy::Pin triggerPins[12] = {
     seed::D18,
     seed::D19,
     seed::D20,
-    seed::D20, // TODO SET TO D21
-    seed::D20, // TODO SET TO D22
+    seed::D21,
+    seed::D22,
     seed::D23,
     seed::D24,
     seed::D25,
@@ -50,7 +49,6 @@ GPIO switchGPIOs[12] = {GPIO(), GPIO(), GPIO(), GPIO(), GPIO(), GPIO(), GPIO(), 
 uint16_t concatTrigger = 0;
 uint16_t concatSwitch = 0;
 
-AdcChannelConfig bitCrushAn = AdcChannelConfig(); // TODO REMOVE
 AdcChannelConfig downSampleAn = AdcChannelConfig();
 
 DownSampler downSampler0 = DownSampler();
@@ -61,7 +59,7 @@ DaisySeed hw;
 
 float sample_rate;
 
-float bitCrush(float in, uint8_t bits); // TODO REMOVE bits parameter
+float bitCrush(float in);
 void readAnalogs();
 void readDigitals();
 
@@ -71,10 +69,14 @@ void AudioCallback(AudioHandle::InterleavingInputBuffer in,
 {
     downSampler0.setDownSamplingFactor(downSamplingIndex);
     downSampler1.setDownSamplingFactor(downSamplingIndex);
+
     for (size_t i = 0; i < size; i += 2)
     {
-        out[i] = downSampler0.Process(bitCrush(in[i], bitNumberAnalog));      // TODO REMOVE bitNumberAnalog
-        out[i + 1] = downSampler1.Process(bitCrush(in[+1], bitNumberAnalog)); // TODO REMOVE bitNumberAnalog
+#ifndef DEBUG_DIGITAL
+        readDigitals();
+#endif
+        out[i] = downSampler1.Process(bitCrush(in[i + 1]));
+        out[i + 1] = downSampler0.Process(bitCrush(in[i]));
     }
 }
 
@@ -89,11 +91,10 @@ int main(void)
 
     hw.StartLog();
 
-    bitCrushAn.InitSingle(BIT_CRUSH_AN); // TODO REMOVE
     downSampleAn.InitSingle(DOWN_SAMPLE_AC);
-    AdcChannelConfig adcChannelConfigs[] = {bitCrushAn, downSampleAn};
+    AdcChannelConfig adcChannelConfigs[] = {downSampleAn};
 
-    hw.adc.Init(adcChannelConfigs, 2); // TODO pass to 1
+    hw.adc.Init(adcChannelConfigs, 1);
     hw.adc.Start();
 
     // triggers pin, input, no pull up/down
@@ -114,23 +115,29 @@ int main(void)
     while (1)
     {
         readAnalogs();
+#ifdef DEBUG_DIGITAL
         readDigitals();
+        hw.PrintLine("result for 1.0f %f", bitCrush(1.0f));
+        hw.PrintLine("result for -1.0f %f", bitCrush(-1.0f));
+        hw.PrintLine("result for 0.5f %f", bitCrush(0.5f));
+        hw.PrintLine("result for -0.5f %f", bitCrush(-0.5f));
+        hw.PrintLine("result for 0.0f %f", bitCrush(0.0f));
+#endif
+
         hw.DelayMs(100);
     }
 }
 
 void readAnalogs()
 {
-    uint16_t anBitNumber = hw.adc.Get(0);    // TODO REMOVE
-    uint16_t anDownSampling = hw.adc.Get(1); // TODO PASS TO 0
+    uint16_t anDownSampling = hw.adc.Get(0);
 
-    bitNumberAnalog = (anBitNumber / 5940) + 1; // TODO REMOVE
     float rawDownSamplingIndex = sample_rate / ((anDownSampling / 65536.0f) * (sample_rate - MAX_DOWNSAMPLE_FREQ) + MAX_DOWNSAMPLE_FREQ);
     // do those cast to set get only one decimal
     downSamplingIndex = static_cast<float>(static_cast<int>(rawDownSamplingIndex * 10.)) / 10.;
 
 #ifdef DEBUG_ANALOG
-    hw.PrintLine("anBitNumber: %d, anDownSampling: %d", anBitNumber, anDownSampling);
+    hw.PrintLine("anDownSampling: %d", anDownSampling);
     hw.PrintLine("bitNumberAnalog: %d, downSamplingIndex: %f", bitNumberAnalog, downSamplingIndex);
 #endif
 }
@@ -153,7 +160,7 @@ void readDigitals()
     }
     concatTrigger = tmpConcatTrigger;
 #ifdef DEBUG_DIGITAL
-    hw.PrintLine("-\t %d", concatTrigger);
+    hw.PrintLine("-\t concatTrigger:%d", concatTrigger);
 
     hw.Print("switchGPIOs:\t");
 #endif
@@ -167,25 +174,38 @@ void readDigitals()
     }
     concatSwitch = tmpConcatSwitch;
 #ifdef DEBUG_DIGITAL
-    hw.PrintLine("-\t %d", concatSwitch);
+    hw.PrintLine("-\t concatSwitch:%d", concatSwitch);
 #endif
 }
 
-float bitCrush(float in, uint8_t bits) // TODO REMOVE bits parameter
+float bitCrush(float in)
 {
-    float dataIn = (in + 1.0f) / 2.0f;
+    uint8_t sign;
 
-    int16_t max = (1 << N_BITS) - 1;     // 4095
-    int16_t maxLevels = (1 << bits) - 1; // TODO REMOVE
-    int16_t intData = static_cast<int16_t>(roundf(dataIn * max));
+    if (in < 0) // if negatif
+    {
+        sign = 1; // 1 mean negatif
+        in = -in;
+    }
+    else
+    {
+        sign = 0; // 0 mean positif
+    }
 
-    intData = (intData * maxLevels) / max; // Reduce resolution // TODO REMOVE
+    float dataIn = in;
 
-    // TODO UNCOMMENT intData = (intData & ~concatSwitch) + (concatTrigger & concatSwitch);
+    uint16_t max = (1 << N_BITS) - 1; // 4095
+    uint16_t intData = static_cast<uint16_t>(roundf(dataIn * max));
+
+    intData = ((intData & (~concatSwitch)) & max) + ((concatTrigger & concatSwitch) & max);
 
     // Convert back to float in range [0,1]
-    float crushed = static_cast<float>(intData) / maxLevels;
+    float crushed = static_cast<float>(intData) / max;
 
-    // Scale back to [-1,1]
-    return crushed * 2.0f - 1.0f;
+    if (sign == 1) // if negatif
+    {
+        crushed = -crushed;
+    }
+
+    return crushed;
 }

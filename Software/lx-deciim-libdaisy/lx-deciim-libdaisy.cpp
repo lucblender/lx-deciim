@@ -147,8 +147,32 @@ void readDigitals()
     uint16_t tmpConcatSwitch = 0;
     uint16_t tmpConcatTrigger = 0;
 #ifdef DEBUG_DIGITAL
+    hw.Print("switchGPIOs:\t");
+#endif
+    for (int i = 11; i >= 0; i--) // do from 11 to 0 so it's MSB to LSB (just for printing and debug)
+    {
+        tmpRead = switchGPIOs[i].Read();
+
+        if (tmpRead == 0)
+        {
+            triggerGPIOs[i].Init(triggerPins[i], GPIO::Mode::OUTPUT);
+            triggerGPIOs[i].Write(0);
+        }
+        else
+            triggerGPIOs[i].Init(triggerPins[i], GPIO::Mode::INPUT);
+
+        tmpConcatSwitch = tmpConcatSwitch + (tmpRead << i);
+#ifdef DEBUG_DIGITAL
+        hw.Print("%d ", tmpRead);
+#endif
+    }
+    concatSwitch = tmpConcatSwitch;
+
+#ifdef DEBUG_DIGITAL
+    hw.PrintLine("-\t concatSwitch:%d", concatSwitch);
     hw.Print("triggerGPIOs:\t");
 #endif
+
     for (int i = 11; i >= 0; i--) // do from 11 to 0 so it's MSB to LSB (just for printing and debug)
     {
         tmpRead = triggerGPIOs[i].Read();
@@ -160,20 +184,6 @@ void readDigitals()
     concatTrigger = tmpConcatTrigger;
 #ifdef DEBUG_DIGITAL
     hw.PrintLine("-\t concatTrigger:%d", concatTrigger);
-
-    hw.Print("switchGPIOs:\t");
-#endif
-    for (int i = 11; i >= 0; i--) // do from 11 to 0 so it's MSB to LSB (just for printing and debug)
-    {
-        tmpRead = switchGPIOs[i].Read();
-        tmpConcatSwitch = tmpConcatSwitch + (tmpRead << i);
-#ifdef DEBUG_DIGITAL
-        hw.Print("%d ", tmpRead);
-#endif
-    }
-    concatSwitch = tmpConcatSwitch;
-#ifdef DEBUG_DIGITAL
-    hw.PrintLine("-\t concatSwitch:%d", concatSwitch);
 #endif
 }
 

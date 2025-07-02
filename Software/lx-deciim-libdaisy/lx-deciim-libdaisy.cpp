@@ -10,7 +10,6 @@ using namespace daisy;
 // #define DEBUG_ANALOG
 // #define DEBUG_DIGITAL
 
-uint32_t bitNumberAnalog = 12;
 float downSamplingIndex = 1.0f;
 
 #define DOWN_SAMPLE_AC seed::A11
@@ -138,7 +137,7 @@ void readAnalogs()
 
 #ifdef DEBUG_ANALOG
     hw.PrintLine("anDownSampling: %d", anDownSampling);
-    hw.PrintLine("bitNumberAnalog: %d, downSamplingIndex: %f", bitNumberAnalog, downSamplingIndex);
+    hw.PrintLine("downSamplingIndex: %f", downSamplingIndex);
 #endif
 }
 

@@ -123,7 +123,6 @@ int main(void)
         hw.PrintLine("result for 0.0f %f", bitCrush(0.0f));
 #endif
 
-        hw.DelayMs(100);
     }
 }
 
@@ -152,7 +151,7 @@ void readDigitals()
     for (int i = 11; i >= 0; i--) // do from 11 to 0 so it's MSB to LSB (just for printing and debug)
     {
         tmpRead = switchGPIOs[i].Read();
-
+        /* This turn off the leds when switches are set to off, this sadly cause problems with the triggers
         if (tmpRead == 0)
         {
             triggerGPIOs[i].Init(triggerPins[i], GPIO::Mode::OUTPUT);
@@ -160,7 +159,7 @@ void readDigitals()
         }
         else
             triggerGPIOs[i].Init(triggerPins[i], GPIO::Mode::INPUT);
-
+        */
         tmpConcatSwitch = tmpConcatSwitch + (tmpRead << i);
 #ifdef DEBUG_DIGITAL
         hw.Print("%d ", tmpRead);

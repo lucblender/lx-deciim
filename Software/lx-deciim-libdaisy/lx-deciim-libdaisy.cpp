@@ -180,19 +180,13 @@ void readDigitals()
 
 float bitCrush(float in)
 {
-    uint8_t sign;
+    // add a little offset 0f 0.01
+    //  if it's 0.5 and there is nothing plugged
+    // the float value oscillate a little above and below
+    // and so with decimation, it will oscillate between big -1 and +1
+    in = in + 0.01; //[-1,1] (plus little offset)
 
-    if (in < 0) // if negatif
-    {
-        sign = 1; // 1 mean negatif
-        in = -in;
-    }
-    else
-    {
-        sign = 0; // 0 mean positif
-    }
-
-    float dataIn = in;
+    float dataIn = (in + 1.0f) / 2.0f; //[0,1]
 
     uint16_t max = (1 << N_BITS) - 1; // 4095
     uint16_t intData = static_cast<uint16_t>(roundf(dataIn * max));
@@ -202,10 +196,5 @@ float bitCrush(float in)
     // Convert back to float in range [0,1]
     float crushed = static_cast<float>(intData) / max;
 
-    if (sign == 1) // if negatif
-    {
-        crushed = -crushed;
-    }
-
-    return crushed;
+    return (crushed * 2.0f) - 1.0f; // return between [-1,1]
 }

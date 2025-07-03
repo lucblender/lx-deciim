@@ -12,7 +12,7 @@ The module is based on the Daisy Seed by Electrosmith.
 
 The concept of the module can be described by the following equation:
 
-$\ audioOut = (audioIn\: \& \:( \sim concatSwitch)) + (concatTrigger\: \& \:concatSwitch)$
+`audioOut = (audioIn & ~concatSwitch) + (concatTrigger & concatSwitch)`
 
 Considering:
 
@@ -37,12 +37,12 @@ Considering:
 
 ## Repository content
 
-- ![Hardware](Hardware/): KiCad Project & Front Panel
-  - ![Hardware/lx-deciim/](Hardware/lx-deciiml/): KiCad Project, Main PCB + Front Panel PCB
-  - ![Hardware/lx-deciim-front-panel/](Hardware/lx-deciim-front-panel/): SVG design of the front panel
-- ![Software](Software/): Main software & python script to generate front panel design
-  - ![Software/lx-deciim-libdaisy](Software/lx-deciim-libdaisy): Main software based on LibDaisy
-  - ![pattern_square_generator.py](Software/pattern_square_generator.py): Main software & python script to generate front panel design
+- [Hardware](Hardware/): KiCad Project & Front Panel
+  - [Hardware/lx-deciim/](Hardware/lx-deciim/): KiCad Project, Main PCB + Front Panel PCB
+  - [Hardware/lx-deciim-front-panel/](Hardware/lx-deciim-front-panel/): SVG design of the front panel
+- [Software](Software/): Main software & python script to generate front panel design
+  - [Software/lx-deciim-libdaisy/](Software/lx-deciim-libdaisy/): Main software based on LibDaisy
+  - [pattern_square_generator.py](Software/pattern_square_generator.py): Main software & python script to generate front panel design
 
 ## Hardware
 

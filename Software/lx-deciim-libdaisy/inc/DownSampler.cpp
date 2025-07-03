@@ -17,9 +17,9 @@ float DownSampler::Process(float in)
 {
     float out;
 
-    if (this->sampleCounter < this->sampleIndex)
+    if ((uint32_t)(this->sampleIndex - this->sampleCounter) >= this->downSamplingFactor)
     {
-        this->sampleCounter += this->downSamplingFactor;
+        this->sampleCounter = this->sampleIndex;
         out = in;
         this->storedSample = in;
     }

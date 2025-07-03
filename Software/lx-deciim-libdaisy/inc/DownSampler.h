@@ -16,7 +16,7 @@ private:
     float storedSample = 0.0f;
     float downSamplingFactor = 1.0f;
     float sampleCounter = 0.0f;
-    int sampleIndex = 0;
+    uint32_t sampleIndex = 0;
 };
 
 #endif

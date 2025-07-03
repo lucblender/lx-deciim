@@ -66,11 +66,16 @@ void AudioCallback(AudioHandle::InterleavingInputBuffer in,
                    AudioHandle::InterleavingOutputBuffer out,
                    size_t size)
 {
+    // when not in debug (analog or digital), read them in the AudioCallback
+#ifndef DEBUG_ANALOG
+    readAnalogs();
+#endif
     downSampler0.setDownSamplingFactor(downSamplingIndex);
     downSampler1.setDownSamplingFactor(downSamplingIndex);
 
     for (size_t i = 0; i < size; i += 2)
     {
+        // when not in debug (analog or digital), read them in the AudioCallback
 #ifndef DEBUG_DIGITAL
         readDigitals();
 #endif
@@ -113,7 +118,11 @@ int main(void)
     /** Infinite Loop */
     while (1)
     {
+        // when in debug (analog or digital), read them in the main loop to not overload the serial output
+#ifdef DEBUG_ANALOG
         readAnalogs();
+        hw.DelayMs(50);
+#endif
 #ifdef DEBUG_DIGITAL
         readDigitals();
         hw.PrintLine("result for 1.0f %f", bitCrush(1.0f));
@@ -121,8 +130,8 @@ int main(void)
         hw.PrintLine("result for 0.5f %f", bitCrush(0.5f));
         hw.PrintLine("result for -0.5f %f", bitCrush(-0.5f));
         hw.PrintLine("result for 0.0f %f", bitCrush(0.0f));
+        hw.DelayMs(50);
 #endif
-
     }
 }
 

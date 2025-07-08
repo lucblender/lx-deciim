@@ -101,6 +101,23 @@ int main(void)
     hw.adc.Init(adcChannelConfigs, 1);
     hw.adc.Start();
 
+    // funky blinking led boot sequence
+    for (int i = 0; i < 12; i++)
+    {
+        triggerGPIOs[i].Init(triggerPins[i], GPIO::Mode::OUTPUT);
+        triggerGPIOs[i].Write(0);
+    }
+    for (int i = 0; i < 12; i++)
+    {
+        triggerGPIOs[i].Write(1);
+        hw.DelayMs(50);
+    }
+    for (int i = 0; i < 12; i++)
+    {
+        triggerGPIOs[i].Write(0);
+        hw.DelayMs(50);
+    }
+
     // triggers pin, input, no pull up/down
     for (int i = 0; i < 12; i++)
     {

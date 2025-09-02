@@ -1,5 +1,7 @@
 # lx-deciim
 
+![lx-deciim](Pictures/lx-deciim.png)
+
 The lx-deciim is a unique 2-channel bitcrusher eurorack module. Conventionals bitcrushers reduce resolution of the input bit by bit starting by the LSB (Least Significant Bit).
 
 The lx-deciim let you select which bit you want to disable. In addition, when a bit is disabled, it can be replaced by a CV input going through a trigger to get a clean '0' '1' value.

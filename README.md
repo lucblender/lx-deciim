@@ -52,7 +52,7 @@ The module consist of 2 PCBs. The main PCB (in reality two PCBs on a panel), and
 
 All PCB shown in pictures in this repo are manufactured using [PCBWay](https://pcbway.com) services.
 
-PCBWay provides high-quality PCB manufacturing with reliable service and fast turnaround times, making them my first choice for prototyping as seen in this Minitel project. They can also make more complex PCB to fit any of your requirements.
+PCBWay provides high-quality PCB manufacturing with reliable service and fast turnaround times, making them my first choice for prototyping as seen in this project. They can also make more complex PCB to fit any of your requirements.
 
 ## License
 
